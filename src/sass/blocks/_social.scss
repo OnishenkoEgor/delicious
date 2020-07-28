@@ -1,3 +1,22 @@
-.social{
-    
+.social {
+    padding: 0;
+    padding-left: 12px;
+    max-width: 113px;
+    &__link{
+        min-width: 27px;
+        min-height: 27px;
+        border-radius: 13.5px;
+        
+        &:hover{
+            img{
+                box-shadow: 0 0 10px 1px $greytext;
+            }
+            
+        }
+        img{
+            transition: 0.7s all;
+            border-radius: 50%;
+            width: 100%;
+        }
+    }
 }

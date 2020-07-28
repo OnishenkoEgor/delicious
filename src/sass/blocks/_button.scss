@@ -1,9 +1,10 @@
 .butn{
     background: linear-gradient(to bottom,#fa4742, #ff7f8e);
-    width: 160px;
+    min-width: 160px;
     height: 39px;
     border:none;
     font-size: 14px;
+    letter-spacing: 0.7px;
     border-radius: 19.5px;
     transition: 0.5s all;
     color: #ffffff;

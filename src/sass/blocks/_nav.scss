@@ -1,0 +1,93 @@
+
+.nav {
+    
+    width: 100vw;
+    
+    background: #ff7f8e;
+    color: #fff;
+    a{
+        color: #fff;
+    }
+}
+.nav__wrapper {
+    min-height:57px ;
+}
+
+.nav__catalog {
+    padding: 0;
+    
+}
+
+.nav__burger {
+    display: block;
+    span{
+        display: block;
+        width: 24px;
+        background-color: #fff;
+        height: 2px;
+        border-radius: 1px;
+        margin-bottom: 6px;
+        &:last-child{
+            margin-bottom: 0;
+            max-width: 19px;
+        }
+    }
+}
+.nav__catalog-link {
+    line-height: 18px;
+    margin-left: 15px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    text-decoration: underline;
+    
+}
+.nav__menu {
+    transform: translateX(2px);
+    padding: 0;
+}
+.menu {
+    padding-left: 2px;
+}
+.menu__item {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+    &:nth-child(2){
+        transform: translateX(-2px);
+    }
+    &:nth-child(3){
+        transform: translateX(-5px);
+    }
+    &:nth-child(4){
+        transform: translateX(-3px);
+    }
+    &:nth-child(5){
+        transform: translateX(-1px);
+    }
+}
+.menu__link {
+}
+.nav__basket {
+    padding-top: 3px;
+}
+.basket {
+}
+.basket__logo {
+    margin-right: 11px;
+}
+.basket__text {
+
+}
+.basket__title {
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    margin-bottom: 3px;
+}
+.basket__price {
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
