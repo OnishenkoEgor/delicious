@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>Вкусно</title>
 </head>
 <body>
@@ -18,23 +19,23 @@
             <div class="header__wrapper col-xl-10 offset-xl-1 d-flex flex-column">
                 <div class="row d-dlex flex-row justify-content-between">
                     <div class="search col-xl-4 d-flex flex-row">
-                        <div class="search__button">
+                        <button class="search__button">
                              <img src="img/icons/header/search (1) 1.svg" alt="Поиск">
-                        </div>
+                        </button>
                         <input type="text" class="search__input" >
                     </div>
-                 <div class="social offset-xl-2 col-xl-2 d-flex flex-row">
-                     <a class="vk-link" href="#">
+                 <div class="social offset-xl-2 col-xl-2 d-flex flex-row justify-content-between">
+                     <a class="social__link" href="#">
                          <img src="img/icons/header/vk-social-logotype 1.svg" alt="VK">
                      </a>
-                     <a class="fb-link" href="#">
+                     <a class="social__link" href="#">
                          <img src="img/icons/header/facebook 1.svg" alt="facebook">
                      </a>
-                     <a href="#" class="ins-link">
+                     <a href="#" class="social__link">
                          <img src="img/icons/header/instagram 1.svg" alt="instagram">
                      </a>
                  </div>
-                 <div class="login col-xl-2">
+                 <div class="login d-flex flex-row col-xl-2 align-items-center">
                      <div class="login__icon">
                          <img src="img/icons/header/user (2).svg" alt="User">
                      </div>
@@ -43,24 +44,24 @@
                      </a>
                  </div>
                  </div>
-                 <div class="row d-dlex flex-row justify-content-between">
+                 <div class="row d-dlex flex-row justify-content-between align-items-center">
                      <h1 class="header__title col-xl-2">Food market</h1>
-                     <div class="header__contact offset-xl-2 col-xl-2 contact">
-                         <a href="tel:+70000000000" class="contact__phone">+70000000000</a>
+                     <div class="header__contact contact offset-xl-2 col-xl-2 ">
+                         <a href="tel:+70000000000" class="contact__phone">+7 000 000 00 00</a>
                          <div class="contact__time">
                              Работаем с 9:00 до 21:00
                          </div>
                      </div>
-                     <div class="header__delivery delivery col-xl-2">
+                     <div class="header__delivery delivery col-xl-2 d-flex flex-row justify-content-between">
                          <div class="delivery__icon">
                              <img src="img/icons/header/delivery-truck 1.svg" alt="delivery-truck">
                          </div>
                          <div class="delivery__descr">
                              Доставка<br/>
-                             в день заказа
+                             в день заказ
                          </div>
                      </div>
-                     <button class="btn header__btn col-xl-2">Заказать звонок</button>
+                     <button class="butn header__btn col-xl-2">Заказать звонок</button>
                  </div>
             </div>
         </div>

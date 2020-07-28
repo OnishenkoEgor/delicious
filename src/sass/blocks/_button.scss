@@ -1,3 +1,14 @@
-.btn{
-    
+.butn{
+    background: linear-gradient(to bottom,#fa4742, #ff7f8e);
+    width: 160px;
+    height: 39px;
+    border:none;
+    font-size: 14px;
+    border-radius: 19.5px;
+    transition: 0.5s all;
+    color: #ffffff;
+    &:hover{
+        box-shadow: 0px 4px 15px 0 rgba(250, 71, 66, 0.5);
+        transform: translate(0,1px);
+    }
 }
