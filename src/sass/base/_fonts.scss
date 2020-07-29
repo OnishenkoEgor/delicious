@@ -196,3 +196,12 @@
     font-display:swap;
     font-style: italic;
 }
+@font-face{
+    font-family: 'montserratbold';
+    src: local('/fonts/montserratbold'),
+     local('/fonts/montserratbold'),
+        url('/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display:swap;
+    font-style: normal;
+}

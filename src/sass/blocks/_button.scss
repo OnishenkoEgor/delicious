@@ -1,4 +1,5 @@
 .butn{
+    display: block;
     background: linear-gradient(to bottom,#fa4742, #ff7f8e);
     min-width: 160px;
     height: 39px;
@@ -11,5 +12,9 @@
     &:hover{
         box-shadow: 0px 4px 15px 0 rgba(250, 71, 66, 0.5);
         transform: translate(0,1px);
+    }
+    &:focus{
+        border:none;
+        outline: none;
     }
 }

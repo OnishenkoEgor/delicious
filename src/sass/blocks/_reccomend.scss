@@ -1,0 +1,130 @@
+.reccomend {
+    padding-top: 45px;
+}
+.reccomend__title {
+    
+    display:block;
+    padding-right: 50px;
+    text-align: center;
+    color:$blacktext;
+}
+.reccomend__list {
+    padding-top: 26px;
+}
+.reccomend__item {
+}
+.tab {
+    
+    
+    &__content{
+        padding:0 20px 24px 20px ;
+        height: 330px;
+        box-shadow: 0px 4px 15px 0 rgba(0, 0, 0, 0.07);
+    }
+    &__image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 155px;
+    }
+    &__rate {
+        
+        margin-bottom: 9px;
+        i{
+            color: $maincolor;
+            font-size: 13px;
+            width: 12.5px;
+            letter-spacing: 0;
+            &:last-child{
+                color: $greytext;
+            }
+        }
+        
+    }
+    &__descr {
+        padding-left: 2px;
+        letter-spacing: 0.7px;
+        font-size: 14px;
+        color: $blacktext;
+        line-height: 1.29;
+    }
+    &__weight {
+        padding-top: 4px;
+        padding-left: 1px;
+        margin-bottom: 13px;
+        input[type=radio]:nth-child(1) + label {
+            
+            margin-right: 6px;
+        }
+        input[type=radio] {
+            display:none; 
+            margin:10px;
+        }
+        input[type=radio] + label {
+            display:inline-block;
+            font-size: 14px;
+            color:  $maincolor;
+            letter-spacing: 0.7px;
+            line-height: 25px;
+            border-radius: 13.5px;
+            cursor: pointer;
+            width: 57px;
+            text-align: center;
+            border: solid 1px $maincolor;
+            background-color:#fff;
+        }
+        input[type=radio]:checked + label {
+            color: #fff;
+            background-color:$maincolor;
+        }
+    }
+    &__price {
+        font-size: 14px;
+        letter-spacing: 0.7px;
+
+        span:nth-child(1){
+            text-decoration: line-through;
+            color: $greytext;
+        }
+        span:nth-child(2){
+            color: $blacktext;
+            font-weight: 700;
+        }
+    }
+    &__buy{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__basket {
+        width: 40px;
+        height: 27px;
+        transform: translateX(2px);
+        border-radius:13.5px;
+        background:linear-gradient(to bottom, #fa4742 , #ff7f8e);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border:none;
+        outline: none;
+        &:focus{
+            outline: none;
+            border: none;
+        }
+        img{
+            outline: none;
+            width: 20px;
+            height: 18px;
+        }
+    }
+   
+}   
+.reccomend__button {
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+

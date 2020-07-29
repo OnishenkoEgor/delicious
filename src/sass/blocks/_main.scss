@@ -1,0 +1,71 @@
+
+.main {
+    padding-top: 30px;
+    background-color: #f9f9f9;
+}
+
+.filter__content{
+    box-shadow: 0px 4px 15px 0 rgba(0, 0, 0, 0.07);
+}
+.filter__item{
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+    
+    a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        line-height: 44px;
+        flex: 1 1 100%;
+        padding-left: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        font-size: 14px;
+        font-weight: 200;
+        color: $blacktext;
+        letter-spacing: 0.7px;
+    }
+    .filter__logo{
+        width: 20px;
+        height: 20px;
+        margin-right: 16px;
+        img{
+            transform: translateY(-6px);
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.main__block {
+    
+    background-color: #f9f9f9;
+   
+}
+
+.main__content{
+    background: url('/img/back/mainCrabpng.png')center (center/cover) no-repeat;
+    height: 451px;
+    padding-left: 94px;
+    padding-top: 107px;
+    letter-spacing: 2.4px;
+}
+.mait__title {
+    
+    color: #fff;
+    margin-bottom: 13px;
+}
+.main__subtitle {
+    padding-left: 2px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    line-height: 28px;
+    text-align: left;
+    max-width: 485px;
+    margin-bottom: 21px;
+}
+
+.main__more {
+    margin-left: 3px;
+}

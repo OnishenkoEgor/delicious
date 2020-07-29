@@ -2,13 +2,17 @@
 @import 'base/variables';
 @import 'blocks/header';
 @import 'blocks/button';
+@import 'blocks/title';
 @import 'blocks/social';
 @import 'blocks/nav';
+@import 'blocks/main';
+@import 'blocks/reccomend';
+@import 'blocks/advanteges';
 
 .container{
     padding: 0;
     margin: 0 auto;
-    max-width: 1126px;
+    max-width: 1112px;
 }
 button,a{
     outline: none;

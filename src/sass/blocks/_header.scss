@@ -2,7 +2,6 @@
     padding-top: 14px;
 }
 .header__content {
-    padding: 0 7px;
 }
 
 .header__logo {
@@ -28,11 +27,16 @@
     padding: 2px 3px;
 }
 .search__button {
+    width: 23px;
+    height: 26px;
     border:none;
     outline: none;
     padding: 0;
     margin: 0;
     background-color: #fff;
+    img{
+        width: 100%;
+    }
     &:focus{
         outline: none;
     }
