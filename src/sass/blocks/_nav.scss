@@ -1,7 +1,6 @@
 
 .nav {
     
-    width: 100vw;
     
     background: #ff7f8e;
     color: #fff;
@@ -11,7 +10,7 @@
 }
 .nav__wrapper {
     min-height:57px ;
-    padding: 0 8px;
+    padding: 0;
 }
 
 .nav__catalog {
@@ -44,11 +43,10 @@
     
 }
 .nav__menu {
-    transform: translateX(2px);
+    transform: translateX(12px);
     padding: 0;
 }
 .menu {
-    padding-left: 2px;
 }
 .menu__item {
     font-size: 14px;
@@ -78,6 +76,7 @@
     }
 }
 .nav__basket {
+    padding: 0;
     padding-top: 3px;
 }
 .basket {
