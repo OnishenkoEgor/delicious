@@ -32,12 +32,17 @@
         
         margin-bottom: 9px;
         i{
+            cursor: pointer;
             color: $maincolor;
             font-size: 13px;
             width: 12.5px;
             letter-spacing: 0;
+            transition: 0.5s all;
             &:last-child{
                 color: $greytext;
+            }
+            &:hover{
+                color: $maincolor;
             }
         }
         
@@ -48,11 +53,17 @@
         font-size: 14px;
         color: $blacktext;
         line-height: 1.29;
+        transition: 0.5s all;
+        &:hover{
+            text-decoration: none;
+            color: $greytext;
+        }
     }
     &__weight {
         padding-top: 4px;
         padding-left: 1px;
         margin-bottom: 13px;
+        
         input[type=radio]:nth-child(1) + label {
             
             margin-right: 6px;
@@ -62,6 +73,7 @@
             margin:10px;
         }
         input[type=radio] + label {
+            transition: 0.7s all;   
             display:inline-block;
             font-size: 14px;
             color:  $maincolor;
@@ -110,6 +122,11 @@
         justify-content: center;
         border:none;
         outline: none;
+        transition: 0.5s all;
+        &:hover{
+            transform: translate(2px,-2px);
+            box-shadow:0 2px 7px $maincolor
+        }
         &:focus{
             outline: none;
             border: none;

@@ -1,0 +1,123 @@
+.footer {
+    padding-top: 40px;
+}
+.footer__wrapper {
+    padding: 0;margin: 0;
+}
+
+.footer__logo {
+    padding-left: 0;
+    padding-right: 0;
+    img{
+        width: 132px;
+        height: 121px;
+    }
+}
+.footer__info {
+    margin-left: 70px;
+   padding-left: 0;
+}
+.footer__address {
+    margin-bottom: 17px;
+}
+.address {
+}
+.address__logo {
+    width: 20px;
+    height: 20px;
+    img{
+        width: 100%;
+    }
+}
+.address__text {
+    padding-left: 10px;
+}
+.address__title {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+.address__link {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: $maincolor;
+    text-decoration: underline;
+    transition: 0.5s all;
+    &:hover{
+        transform: translateY(1px);
+        color: $greytext;
+        text-decoration: none;
+    }
+
+}
+.footer__contact {
+    margin-bottom: 16px;
+}
+.contact {
+}
+.contact__logo {
+    width: 18px;
+    height: 20px;
+    img{
+        width: 100%;
+    }
+}
+.contact__text {
+    padding-left: 13px;
+    .contact__phone{
+        
+        line-height: 20px;
+    }
+}
+
+.mail__logo {
+    width: 20px;
+    height: 20px;
+    img{
+        width: 100%;
+    }
+}
+.mail__link {
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: $maincolor;
+    text-decoration: underline;
+    transition: 0.5s all;
+    &:hover{
+        text-decoration: none;
+        transform: translateY(1px);
+        color: $greytext;
+    }
+}
+.footer__links {
+   
+}
+.links {
+    padding-left: 25px;
+    padding-right: 5px;
+}
+.links__column {
+    
+}
+.links__item {
+    margin-bottom: 16px;
+    a{
+        display: block;
+        color: $blacktext;
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        transition: 0.5s all;
+        &:hover{
+            text-decoration: none;
+            transform: translateY(1px);
+            color: $maincolor;
+        }
+    }
+}
+.social {
+}
+.social__link {
+}

@@ -55,6 +55,7 @@
     line-height: 18px;
     letter-spacing: 0.7px;
     font-weight: 700;
+    
     &:nth-child(2){
         transform: translateX(-2px);
     }
@@ -69,16 +70,31 @@
     }
 }
 .menu__link {
+    display: block;
+    transition: 0.3s all;
+    &:hover{
+        text-decoration: none;
+        transform:scale(1.03);
+    }
 }
 .nav__basket {
     padding-top: 3px;
 }
 .basket {
+    
+    &:hover{
+    .basket__logo{
+        transform: translateY(2px);
+    }
+    text-decoration: none;
+}
 }
 .basket__logo {
+    transition: 0.5s all;
     margin-right: 11px;
 }
 .basket__text {
+    
 
 }
 .basket__title {

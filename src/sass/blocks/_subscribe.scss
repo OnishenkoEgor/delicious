@@ -1,0 +1,82 @@
+.subscribe {
+    min-height: 246px;
+    background: url('/img/back/subscribe.png')center (center/cover) no-repeat;
+
+    &__content {
+        padding-top: 35px;
+    }
+    &__title {
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 28px;
+        color: #fff;
+        letter-spacing: 0.9px;
+        text-align: center;
+        margin-bottom: 23px;
+    }
+    &__form {
+        
+    }
+    &__input {
+        padding-left: 15px;
+        border-radius: 18.5px;
+        border: 1px solid #fff;
+        background-color: rgba(0,0,0,0);
+        color: #fff;
+        width: 100%;
+        height: 39px;
+        font-weight: 300;
+        font-size: 14px;
+        letter-spacing: 0.7px;
+        transition: 0.5s all;
+        &:focus{
+            border: 1px solid $maincolor;
+            outline:none;
+        }
+        &::placeholder{
+            color: #fff;
+        }
+    }
+    &__button {
+        width: 100%;
+        line-height: 39px;
+    }
+}
+.input__wrapper {
+    padding-right: 0;
+    &:nth-child(1){
+        transform: translateX(4px);
+        padding-left: 13px;
+        padding-right: 8px;
+    }
+    &:nth-child(2){
+        transform: translateX(4px);
+        padding-left: 23px;
+    }
+    &:nth-child(3){
+        transform: translateX(14px);
+        padding-left: 21px;
+    }
+}
+
+.confident {
+    padding-left: 21px;
+    letter-spacing: 0.7px;
+    padding-top: 13px;
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff;
+    a{
+        color: $maincolor;
+    }
+}
+.confident__link {
+    text-decoration: underline;
+    display: block;
+    transition: 0.5s all;
+    &:hover{
+        transform: translateY(1px);
+        color: #fff;
+        text-decoration: none;
+    }
+}

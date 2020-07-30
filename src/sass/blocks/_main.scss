@@ -22,20 +22,39 @@
         flex-direction: row;
         justify-content: start;
         font-size: 14px;
-        font-weight: 200;
+        font-weight: 300;
         color: $blacktext;
         letter-spacing: 0.7px;
-    }
-    .filter__logo{
-        width: 20px;
-        height: 20px;
-        margin-right: 16px;
-        img{
-            transform: translateY(-6px);
-            height: 100%;
-            width: 100%;
+        transition: 0.5s all;
+        .filter__logo{
+            width: 20px;
+            height: 20px;
+            margin-right: 16px;
+            
+            object{
+                transition: 0.5s all;
+                transform: translateY(-6px);
+                height: 100%;
+                width: 100%;
+                color: $maincolor;
+            }
+            img{
+                transform: translateY(-6px);
+                height: 100%;
+                width: 100%;
+            }
+        }
+     
+        &:hover{
+            background-color: $maincolor;
+            color: #fff;
+            text-decoration: none;
+            object{
+                filter: grayscale(100%)    brightness(200%) ; 
+            }
         }
     }
+    
 }
 .main__block {
     
