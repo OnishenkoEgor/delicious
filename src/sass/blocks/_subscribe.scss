@@ -15,7 +15,7 @@
         margin-bottom: 23px;
     }
     &__form {
-        
+        padding-left: 0;
     }
     &__input {
         padding-left: 15px;
@@ -45,17 +45,17 @@
 .input__wrapper {
     padding-right: 0;
     &:nth-child(1){
-        transform: translateX(4px);
-        padding-left: 13px;
+        
+        padding-left: 15px;
         padding-right: 8px;
     }
     &:nth-child(2){
-        transform: translateX(4px);
+        
         padding-left: 23px;
     }
     &:nth-child(3){
-        transform: translateX(14px);
-        padding-left: 21px;
+        
+        padding-left: 25px;
     }
 }
 

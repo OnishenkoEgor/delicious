@@ -1,3 +1,9 @@
+
+.container{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1112px;
+}
 @import 'base/fonts';
 @import 'base/variables';
 @import 'blocks/header';
@@ -13,11 +19,9 @@
 @import 'blocks/footer';
 @import 'base/media';
 
-.container{
-    padding: 0;
-    margin: 0 auto;
-    max-width: 1112px;
-}
+
+
+
 button,a{
     outline: none;
 }
